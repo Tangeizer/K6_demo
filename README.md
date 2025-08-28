@@ -17,16 +17,20 @@
 ```bash
 git clone <your-repo-url>
 cd k6-load-testing-demo
-
+```
 
 
 Запуск тестов
 REST API тестирование:
+```bash
 k6 run scripts/rest-test.js
+```
 
 
 WebSocket тестирование:
+```bash
 k6 run scripts/websocket-test.js
+```
 
 REST API Тест (rest-test.js)
 Нагрузочный сценарий
